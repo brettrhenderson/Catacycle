@@ -10,7 +10,11 @@ Welcome to Catacycle's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   about_catacycle
+   installation
    getting_started
+   tutorials
+   developer_docs
    api
 
 

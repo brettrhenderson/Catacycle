@@ -1,7 +1,13 @@
 API Documentation
 =================
 
+.. automodule:: catacycle
+
+.. rubric:: Modules
+
 .. autosummary::
    :toctree: autosummary
+   :recursive:
 
-   catacycle.canvas
+   catacycle.catacycle
+   catacycle.drawing_helpers

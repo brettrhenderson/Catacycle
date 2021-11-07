@@ -37,7 +37,7 @@ release = ''
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #
-# needs_sphinx = '1.0'
+needs_sphinx = '3.1'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -172,3 +172,11 @@ texinfo_documents = [
 
 
 # -- Extension configuration -------------------------------------------------
+def skip_member(app, what, name, obj, skip, opts):
+    if what == 'module' and name == "tests":
+        return True
+    return None
+
+
+def setup(app):
+    app.connect('autodoc-skip-member', skip_member)
