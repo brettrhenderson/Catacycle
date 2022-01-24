@@ -9,7 +9,7 @@ A python visualization package for generating data-rich catalytic cycle drawings
 
 ### Copyright
 
-Copyright (c) 2021, Rust Shackleford, Brett Henderson, Sofia Donnecke
+Copyright (c) 2021, Rusty Shackleford, James McFarlane, Brett Henderson, Sofia Donnecke
 
 
 #### Acknowledgements
